@@ -2,7 +2,7 @@ var config = {
    entry: './main.js',
    
    output: {
-      path:'http://13.90.196.105/',
+      path:'/',
       filename: 'index.js',
    },
    
