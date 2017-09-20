@@ -4,4 +4,4 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 CMD node main.js
-EXPOSE 7777
+EXPOSE 1442
