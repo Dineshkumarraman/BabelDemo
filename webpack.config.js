@@ -8,8 +8,10 @@ var config = {
    
    devServer: {
       inline: true,
-      host: 'http://13.90.196.105',
-      port: 1442
+      port: 1442,
+      proxy: {
+         '*': { target: 'http://13.90.196.105:1442'}
+      }
    },
    
    module: {
